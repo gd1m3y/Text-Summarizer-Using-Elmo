@@ -1,6 +1,14 @@
 # Extractive-Text-Summarizer-Using-Elmo
 ## introduction
 The Aim of this project is to Summarize a given document Using Extractive summarization method and Elmo embeddings.
+
+As Summarization is of Two basic types -
+* Extractive - When choose the texts from the sentences itself for the summary.
+* Abstractive - When machine predicts Texts related document.
+
+![img](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/05/13.jpg)
+
+This Project Aims to Demonstrate the Extractive Text Summarization.
 ## Work Flow
 The work Flow of the Project - 
 
