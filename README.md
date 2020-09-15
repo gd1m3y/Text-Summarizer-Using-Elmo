@@ -6,6 +6,11 @@ The work Flow of the Project -
 
 ![img](https://github.com/gd1m3y/Text-Summarizer-Using-Elmo/blob/master/extractive.png)
 
+* Preprocessing - Using regular Expressions and many other libraries to remove irregularities in the data such as punctuations,links,numbers which doesnt have any specific effect on the model rather may result in abnormal results.
+* Sentence-Tokenization - Tokenization of the document sentences using spacy library
+* Elmo-Encoder - Conversion of the sentences into embeddings using Elmo Embeddings
+* Clustering - Sentence embeddings are grouped into Clusters using KMeans Clustering
+* Summary-Creation - The embeddings Clusters which are closer to the center are taken in account for the creation of the final summary
 ## Elmo
 ELMo is a novel way to represent words in vectors or embeddings. These word embeddings are helpful in achieving state-of-the-art (SOTA) results in several NLP tasks:
 
@@ -29,6 +34,9 @@ ELMo word vectors are computed on top of a two-layer bidirectional language mode
 
 7. The final representation (ELMo) is the weighted sum of the raw word vectors and the 2 intermediate word vectors
 
+## Model Used 
+KMeans clustering is a unsupervised learning method of clustering data into N no of Groups Known as Clusters.
+
 ## Technology Stack
 
 * Spacy - A NLP Library used for variety of tasks Such as Named entity recognition
@@ -38,6 +46,7 @@ ELMo word vectors are computed on top of a two-layer bidirectional language mode
 * re - for performing string operations
 * pandas - Data manipulation library
 * Pickle - To save the intermediate results
+* Sklearn - A library consisting of many functions regarding Mathematics and Statistics.
 ## To-do
 * Using different sophisticated models or methodologies to train on embeddings and achieve a better accuracy
 * Different Preprocessing steps for a better result
