@@ -4,7 +4,7 @@ The Aim of this project is to Summarize a given document Using Extractive summar
 ## Work Flow
 The work Flow of the Project - 
 
-![img]()
+![img](https://github.com/gd1m3y/Text-Summarizer-Using-Elmo/blob/master/extractive.png)
 
 ## Elmo
 ELMo is a novel way to represent words in vectors or embeddings. These word embeddings are helpful in achieving state-of-the-art (SOTA) results in several NLP tasks:
